@@ -1,0 +1,13 @@
+projection implementation in class zbp_c_dahitab unique;
+strict ( 2 );
+
+define behavior for ZC_DAHITAB //alias <alias_name>
+
+
+{
+
+  use update;
+  use delete;
+
+  use action setKeinTreffer;
+}

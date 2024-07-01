@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition für Trefferliste'
+define service ZEXPOSE_DAHITAB {
+  expose ZC_DAHITAB;
+}

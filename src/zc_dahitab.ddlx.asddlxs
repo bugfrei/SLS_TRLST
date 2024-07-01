@@ -1,0 +1,587 @@
+@Metadata.layer: #PARTNER
+@UI.headerInfo: { 
+  title: { 
+     type: #STANDARD,
+     value: 'Zname1'
+  }
+}
+annotate entity ZC_DAHITAB
+  with 
+{
+  @UI.facet: [{
+    id: 'dahitab',
+    purpose: #STANDARD,
+    type: #IDENTIFICATION_REFERENCE,
+    label: 'Treffer',
+    position: 1000203
+  }]
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 10,
+      label: ''
+    },
+    { 
+      type: #FOR_ACTION,
+      dataAction: 'setKeinTreffer',
+      label: 'kein Treffer'
+    }
+     ],
+    identification: [
+    { 
+      position: 10,
+      label: ''
+    },
+    { 
+      type: #FOR_ACTION,
+      dataAction: 'setKeinTreffer',
+      label: 'kein Treffer'
+    }
+    ],
+    selectionField: [{ 
+      position: 10
+     }]
+   }
+  Zobject;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 20,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 20,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 20
+     }]
+   }
+  Zobjectkey;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 30,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 30,
+      label: ''
+    }]
+   }
+  Zcounter;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 40,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 40,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 40
+     }]
+   }
+  Zname1;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 60,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 60,
+      label: ''
+    }]
+   }
+  Zname2;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 80,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 80,
+      label: ''
+    }]
+   }
+  Zname3;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 100,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 100,
+      label: ''
+    }]
+   }
+  Zname4;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 120,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 120,
+      label: ''
+    }]
+   }
+  Zname5;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 140,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 140,
+      label: ''
+    }]
+   }
+  Zstreet;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 150,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 150,
+      label: ''
+    }]
+   }
+  ZpostCode;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 160,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 160,
+      label: ''
+    }]
+   }
+  Zcity;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 170,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 170,
+      label: ''
+    }]
+   }
+  Zcountry;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 180,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 180,
+      label: ''
+    }]
+   }
+  Zbukrs;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 190,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 190,
+      label: ''
+    }]
+   }
+  ZCreUser;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 200,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 200,
+      label: ''
+    }]
+   }
+  ZCreDate;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 210,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 210,
+      label: ''
+    }]
+   }
+  ZCreTime;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 220,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 220,
+      label: ''
+    }]
+   }
+  ZChgUserSap;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 230,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 230,
+      label: ''
+    }]
+   }
+  ZChgDateSap;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 240,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 240,
+      label: ''
+    }]
+   }
+  ZChgTimeSap;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 250,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 250,
+      label: ''
+    }]
+   }
+  ZChgDateExt;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 260,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 260,
+      label: ''
+    }]
+   }
+  ZChgLdatExt;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 270,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 270,
+      label: ''
+    }]
+   }
+  Zfund2;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 290,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 290,
+      label: ''
+    }]
+   }
+  Zfund1;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 310,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 310,
+      label: ''
+    }]
+   }
+  Zfund3;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 330,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 330,
+      label: ''
+    }]
+   }
+  Zfund4;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 350,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 350,
+      label: ''
+    }]
+   }
+  Ztreffer;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 360,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 360,
+      label: ''
+    }]
+   }
+  CreatedBy;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 370,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 370,
+      label: ''
+    }]
+   }
+  CreatedAt;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 380,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 380,
+      label: ''
+    }]
+   }
+  LocalLastChangedBy;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 390,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 390,
+      label: ''
+    }]
+   }
+  LocalLastChangedAtDA;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 400,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 400,
+      label: ''
+    }]
+   }
+  LastChangedAt;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 410,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 410,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 410
+     }]
+   }
+  Zlstnam;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 420,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 420,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 420
+     }]
+   }
+  Zprozent;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 430,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 430,
+      label: ''
+    }]
+   }
+  Ztext;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 440,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 440,
+      label: ''
+    }]
+   }
+  Zdetail1;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 460,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 460,
+      label: ''
+    }]
+   }
+  Zdetail2;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 480,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 480,
+      label: ''
+    }]
+   }
+  Zsonst;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 490,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 490,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 490
+     }]
+   }
+  Zland;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 500,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 500,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 500
+     }]
+   }
+  Zort;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 510,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 510,
+      label: ''
+    }],
+    selectionField: [{ 
+      position: 510
+     }]
+   }
+  Zstrasse;
+  @UI: {
+    hidden: false,
+    lineItem: [{ 
+      position: 520,
+      label: ''
+    } ],
+    identification: [
+    { 
+      position: 520,
+      label: ''
+    }]
+   }
+  LocalLastChangedAtHI;
+}
