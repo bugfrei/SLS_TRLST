@@ -24,7 +24,7 @@ annotate entity ZC_DAHITAB
     { 
       type: #FOR_ACTION,
       dataAction: 'setKeinTreffer',
-      label: 'kein Treffer!'
+      label: 'kein Treffer'
     }
      ],
     identification: [
